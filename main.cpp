@@ -47,8 +47,8 @@ public:
 
 private:
     int *p = 0;
-    int cap = 0;
-    int sz = 0;
+    size_t cap = 0;
+    size_t sz = 0;
 };
 
 int main()
