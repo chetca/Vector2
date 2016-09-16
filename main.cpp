@@ -1,9 +1,15 @@
 #include <iostream>
 
-using namespace std;
+class Vector {
+public:
 
-int main(int argc, char *argv[])
+
+private:
+    int *p = 0;
+    int cap = 0;
+    int sz = 0;
+};
+
+int main()
 {
-    cout << "Hello World!" << endl;
-    return 0;
 }
