@@ -52,5 +52,17 @@ private:
 };
 
 int main()
-{    
+{
+    Vector v;
+
+    size_t n;
+    std::cin >> n;
+
+    for (size_t i=0; i<n; ++i)
+        v.push_back(i*2);
+
+    std::cout << "capacity: " << v.capacity() << std::endl;
+
+    for (int i=v.size()-1; i>=0; --i)
+        std::cout << v.at(i) << ' ';
 }
